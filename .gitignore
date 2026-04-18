@@ -1,0 +1,9 @@
+# Claude Code
+.claude/
+
+# OMC
+.omc/
+
+# OS
+.DS_Store
+Thumbs.db
