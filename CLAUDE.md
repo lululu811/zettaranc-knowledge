@@ -11,6 +11,12 @@
   - 存放图片、PDF和媒体。引用时使用 Obsidian 标准语法 `![[文件名称.png]]`。
 - `/wiki/` (编译输出层 - You Own This)：
   - 这是你的专属工作区。你需要在此处创建、更新、提炼知识并解决矛盾。
+  - **多作者命名空间**：wiki 按作者分为多个命名空间，每个作者独立管理：
+    - `wiki/zettaranc/` — Zettaranc（知行小菜鸟）A股交易体系
+    - `wiki/boss_mo/` — BOSS墨 宏观交易体系
+    - `wiki/sanxian/` — 三线文案大锅饭 宏观地缘分析
+    - `wiki/syntheses/` — 跨作者的综合研究报告（保留在根级）
+    - 每个命名空间内部包含 `concepts/`、`entities/`、`sources/`、`index.md`、`log.md`
 
 # Wiki 核心文件契约 (The Wiki Schema)
 当你在 `/wiki/` 中工作时（尤其是执行写入操作后），必须维护以下基石：
@@ -43,11 +49,17 @@
    - **冲突**: 无
    ```
 
-3. **内容分类**：
-   - `/wiki/concepts/`：存放概念、框架、方法论（如 `AgentSkill.md`）。
-   - `/wiki/entities/`：存放人物、公司、工具、产品（如 `ClaudeCode.md`）。
-   - `/wiki/sources/`：存放从 `raw/` 提炼出的原始素材摘要。
-   - `/wiki/syntheses/`：存放针对复杂问题生成的深度研究报告。
+3. **内容分类（命名空间感知）**：
+   - `wiki/{author}/concepts/`：存放概念、框架、方法论。
+   - `wiki/{author}/entities/`：存放人物、公司、工具、产品。
+   - `wiki/{author}/sources/`：存放从 `raw/` 提炼出的原始素材摘要。
+   - `wiki/syntheses/`：存放针对复杂问题生成的深度研究报告（根级，跨作者）。
+
+   **Wikilink 消歧规则**：
+   - Zettaranc 概念保持原名（如 `[[B1建仓波]]`）
+   - BOSS墨 概念使用 `-BossMo` 后缀（如 `[[盈亏比-BossMo]]`）
+   - 三线文案 概念使用 `-SanXian` 后缀（如 `[[苦甜分离-SanXian]]`）
+   - 跨作者引用时必须使用完整的消歧名称
 
 4. **强制双向链接**：
    每一个 wiki 页面必须包含 `## 关联连接` 区域，使用 Obsidian 双链 `[[页面名称]]` 链接到其他相关概念。绝不能产生孤岛页面。
@@ -57,7 +69,7 @@
 
 # 工作流指令说明 (Workflows / Skills)
 当被要求执行以下操作时，请遵循核心逻辑（由专用 Agent Skills 接管）：
-- `/ingest <路径>`：读取指定的 `raw/` 文件，将其核心价值提炼并整合到 `wiki/` 目录的相关概念/实体中。必须更新 index 和 log。
+- `/ingest <路径> --author <作者>`：读取指定的 `raw/` 文件，将其核心价值提炼并整合到 `wiki/{作者}/` 目录的相关概念/实体中。必须指定目标作者命名空间，更新该命名空间的 index 和 log，同时更新总目录 `wiki/index.md`。
 - `/query <问题>`：通过读取 `wiki/index.md` 寻找相关文件，进行深度阅读后综合回答，并在回答中必须使用 `[[wikilink]]` 标注引用来源。
 - `/lint`：全局扫描 `wiki/` 目录，找出孤岛页面（没有双链）、死链（链接不存在的页面）以及存在逻辑冲突的地方，并向我报告。
 
