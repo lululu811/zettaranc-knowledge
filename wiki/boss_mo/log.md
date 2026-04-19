@@ -5,3 +5,10 @@
 - **新增Sources**: 01-writings, 02-conversations, 03-expression-dna, 04-external-views, 05-decisions, 06-timeline, 07-dynamics-analysis, phase2-synthesis
 - **冲突**: 无
 - **状态**: BOSS墨体系从257个视频字幕(94.5万字)的research文件中提炼完成，5个核心心智模型 + 10条决策启发式已提取为概念页面
+
+## [2026-04-19] synthesis | 撰写盈亏比驱动交易操作手册
+- **变更**: 新增1个synthesis; 更新 wiki/boss_mo/index.md
+- **新增Syntheses**: [[盈亏比驱动交易操作手册]]
+- **整合概念**: 覆盖盈亏比、刻舟求剑、正期望值、均价管理、金字塔加仓、止损纪律、换车理论等14个全部概念
+- **冲突**: 无
+- **状态**: BOSS墨从开仓到平仓的完整交易闭环已形成，包含正期望验证→金字塔建仓→均价管理→换车轮换

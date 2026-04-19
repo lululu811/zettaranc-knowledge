@@ -42,6 +42,14 @@
 - **冲突**: 无新增
 - **状态**: wiki/index.md已按短线/长线/通用三级分组，与syntheses操作手册形成呼应
 
+## [2026-04-19] synthesis | 重建三位作者独立操作手册
+- **变更**: 更新2个Zettaranc手册wikilink，新建BOSS墨/三线文案 syntheses各1个; 更新所有index.md
+- **Zettaranc Syntheses**: [[短线交易操作手册]](更新), [[长线交易操作手册]](更新) → 移至 wiki/zettaranc/syntheses/
+- **BOSS墨 Syntheses**: [[盈亏比驱动交易操作手册]](新建) — 盈亏比驱动+刻舟求剑的完整交易闭环
+- **三线文案 Syntheses**: [[宏观地缘分析框架综合报告]](新建) — 从世界观到产业/金融分析的认知框架
+- **冲突**: 无
+- **状态**: 三位作者各自拥有独立的 syntheses 目录，master index 已同步
+
 ## [2026-04-19] sync | 多作者命名空间重构
 - **变更**: 知识库从单作者扩展为多作者，创建3个命名空间
   - `wiki/zettaranc/`: 迁移42个concept + 1个entity + 4个source
