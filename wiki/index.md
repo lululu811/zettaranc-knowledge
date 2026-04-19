@@ -1,5 +1,28 @@
  Wiki Index
 
+```mermaid
+graph TD
+  A[Wiki 知识库] --> B[Zettaranc
+  A股交易体系]
+  A --> C[BOSS墨
+  宏观交易]
+  A --> D[三线文案
+  宏观地缘]
+  A --> E[基本面
+  产业跟踪]
+  B --> B1[42 Concepts]
+  B --> B2[4 Sources]
+  B --> B3[2 Syntheses]
+  C --> C1[14 Concepts]
+  C --> C2[8 Sources]
+  C --> C3[1 Synthesis]
+  D --> D1[12 Concepts]
+  D --> D2[8 Sources]
+  D --> D3[1 Synthesis]
+  E --> E1[15 Concepts]
+  E --> E2[1 Entity]
+```
+
 ## Zettaranc（A股交易体系）
 
 ### Sources

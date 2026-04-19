@@ -58,6 +58,16 @@
 - **冲突**: 无
 - **状态**: 三位作者各自拥有独立的 syntheses 目录，master index 已同步
 
+## [2026-04-19] polish | 高频核心概念美化：Callout + Mermaid
+- **变更**: 为Zettaranc命名空间5个高频核心概念添加Obsidian Callout和Mermaid流程图
+- **少妇战法**: `[!abstract]` 定义 + `[!danger]` 三大铁律 + 六步SOP Mermaid流程图
+- **B1建仓波**: `[!abstract]` 定义 + `[!tip]` 两个30%原则 + `[!danger]` 持仓纪律 + B1→B2→B3递进Mermaid图
+- **DSZ战法**: `[!abstract]` 定义 + `[!danger]` 三条铁律 + DSZ卖出决策Mermaid流程图
+- **三最原则**: `[!abstract]` 定义 + `[!tip]` 选股要点
+- **白线黄线系统**: `[!abstract]` 定义 + `[!warning]` 使用注意事项
+- **知识冲突callout化**: 少妇战法、B1建仓波的冲突区块转为 `[!caution]` 样式
+- **状态**: 5个高频概念全部完成美化，原有frontmatter和结构保持不变
+
 ## [2026-04-19] sync | 多作者命名空间重构
 - **变更**: 知识库从单作者扩展为多作者，创建3个命名空间
   - `wiki/zettaranc/`: 迁移42个concept + 1个entity + 4个source
@@ -68,3 +78,19 @@
 - **重构**: wiki/index.md 改为按作者分组
 - **冲突**: 不同作者体系独立，无跨作者冲突（如BOSS墨的"盈亏比"与Zettaranc的"盈亏比与胜率"是不同概念）
 - **状态**: 多作者命名空间架构完成，wiki/index.md / CLAUDE.md 已更新
+
+## [2026-04-19] polish | Wiki文件美化：Callout + Mermaid
+- **变更**: 为3个Synthesis文件添加Obsidian Callout块和Mermaid流程图
+- **Zettaranc 长线交易操作手册**: 新增 `> [!warning]` 开仓纪律、`> [!danger]` 底仓纪律、`> [!quote]` 心态管理、`> [!warning]` 卖出铁律
+- **BOSS墨 盈亏比驱动交易操作手册**: 新增 `> [!abstract]` 核心结论、完整Mermaid交易流程图、`> [!tip]` 入场纪律、`> [!danger]` 止损铁律
+- **三线文案 宏观地缘分析框架综合报告**: 新增 `> [!abstract]` 核心结论、完整Mermaid分析框架图、`> [!quote]` 底层世界观、`> [!tip]` 版本思维要点
+- **状态**: 所有Synthesis文件均已应用统一的美化规范
+
+## [2026-04-19] polish | 基本面概念全面美化：产业链图+受益标的
+- **变更**: 为15个基本面概念文件统一添加可视化元素和标的映射
+- **新增内容（每文件3项）**:
+  1. `> [!info] 核心观点摘要` Callout + Mermaid产业链流程图
+  2. `> [!warning] 主要风险` Callout（替换原有风险点列表）
+  3. `## 核心受益标的（示例）` 表格 + `> [!tip] 标注说明` Callout
+- **涉及文件**: AI链、算力、半导体、固态电池、人形机器人、创新药、可控核聚变、商业航天、游戏、军工、稀土、有色金属、脑机接口、稳定币、策略宏观
+- **状态**: 基本面命名空间全部完成美化，每个概念具备产业链可视化+标的映射+风险提示三层结构
