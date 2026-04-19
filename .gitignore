@@ -4,6 +4,9 @@
 # OMC
 .omc/
 
+# Raw materials (immutable, local only)
+raw/
+
 # OS
 .DS_Store
 Thumbs.db
