@@ -2,7 +2,7 @@
 title: "摘要-zhihang-精水流深-batch-01"
 type: source
 tags: [A股交易, 知行小菜鸟, 精水流深]
-sources: [raw/01-zettaranc/知行小菜鸟_精水流深/]
+sources: [raw/01-zettaranc/知行小菜鸟/]
 last_updated: 2026-04-18
 ---
 

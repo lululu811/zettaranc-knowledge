@@ -6,7 +6,7 @@ tags:
   - 交易导师
   - Z哥
 sources:
-  - raw/01-zettaranc/知行小菜鸟_精水流深/
+  - raw/01-zettaranc/知行小菜鸟/[202603190728]361你管我叫师傅却一招都不肯听.md
 last_updated: 2026-04-18
 ---
 

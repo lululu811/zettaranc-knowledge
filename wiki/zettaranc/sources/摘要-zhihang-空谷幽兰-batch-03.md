@@ -2,7 +2,7 @@
 title: "摘要-zhihang-空谷幽兰-batch-03"
 type: source
 tags: [空谷幽兰, 交易体系, Z哥]
-sources: [raw/01-zettaranc/知行小菜鸟_空谷幽兰/]
+sources: [raw/01-zettaranc/知行小菜鸟/]
 last_updated: 2026-04-18
 ---
 
