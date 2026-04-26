@@ -2,6 +2,25 @@
 
 > 基于 [Karpathy Wiki 模式](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 构建的结构化知识图谱,聚焦 **Zettaranc(知行小菜鸟)A股交易体系**。
 
+## 📦 项目地址
+
+| 仓库 | 地址 | 说明 |
+|------|------|------|
+| **GitHub(主仓库)** | https://github.com/lululu811/zettaranc-knowledge.git | 主开发仓库,完整内容 |
+| **Gitee(国内镜像)** | https://gitee.com/chenleizzzz/zettaranc-knowledge.git | 国内访问加速镜像 |
+
+> ⚠️ **关于 Gitee 镜像**:Gitee 公开仓库审核较严,部分 skill 配置/Agent 提示词内容暂时无法在 Gitee 公开。如需完整访问请使用 GitHub 主仓库;Gitee 镜像主要供国内用户镜像同步知识内容。
+
+### 克隆方式
+
+```bash
+# 国外/科学上网环境
+git clone https://github.com/lululu811/zettaranc-knowledge.git
+
+# 国内环境(知识内容部分)
+git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
+```
+
 ## ⚠️ 数据丢失说明
 
 **2026-04-26 起**:本仓库原本包含 4 个作者命名空间(Zettaranc / BOSS墨 / 三线文案 / 基本面),共 83 个概念、4 篇 syntheses。因数据丢失,**仅保留 Zettaranc 部分**。
@@ -139,6 +158,16 @@
 | v0.1.0 | 2026-04-18 | 知识库初始化,151篇文章提炼40+概念 |
 
 详见 [CHANGELOG.md](CHANGELOG.md)
+
+## 联系作者
+
+如对知识库内容、Zettaranc 交易体系或 AI + 金融研究方向感兴趣,欢迎扫码关注个人公众号交流:
+
+<p align="center">
+  <img src="assets/wechat-qrcode.jpg" alt="个人公众号二维码" width="240" />
+</p>
+
+> 微信扫描上方二维码即可添加。
 
 ## License
 
