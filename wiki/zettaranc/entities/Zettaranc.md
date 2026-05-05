@@ -6,8 +6,13 @@ tags:
   - 交易导师
   - Z哥
 sources:
-  - raw/01-zettaranc/知行小菜鸟/[202603190728]361你管我叫师傅却一招都不肯听.md
+  - raw/01-articles/知行小菜鸟/[202603190728]361你管我叫师傅却一招都不肯听.md
+created: 2026-04-18
 last_updated: 2026-04-18
+status: published
+entity_type: person
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

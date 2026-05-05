@@ -2,8 +2,14 @@
 title: "摘要-zhihang-知行课代表-batch-02"
 type: source
 tags: [知行课代表, 交易体系, Z哥]
-sources: [raw/01-zettaranc/知行课代表/]
+sources: [raw/01-articles/知行课代表/]
+created: 2026-04-18
 last_updated: 2026-04-18
+status: published
+credibility: medium
+source_type: article
+ingested: true
+ingestion_version: 1
 ---
 
 ## 核心摘要

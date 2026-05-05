@@ -2,8 +2,13 @@
 title: "牛市ETF躺平策略"
 type: concept
 tags: [ETF, 牛市, 波段, 躺平, 长线专用]
-sources: [raw/01-zettaranc/知行小菜鸟/[202603120752]81牛市ETF躺平策略.md, raw/01-zettaranc/复盘专用z/[202509160818]牛市偷懒法之ETF躺平策略25年911Z哥充电直播.md]
+sources: [raw/01-articles/知行小菜鸟/[202603120752]81牛市ETF躺平策略.md, raw/01-articles/复盘专用z/[202509160818]牛市偷懒法之ETF躺平策略25年911Z哥充电直播.md]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义
@@ -64,5 +69,5 @@ last_updated: 2026-04-26
 - [[开超市策略]] — 牛市分散持仓的具体方法
 - [[B1建仓波]] — ETF的一次性建仓买点
 - [[防守哲学]] — 破位止损的风控底线
-- [[少妇战法1.3 每日持股检查手册]] — 牛市持仓的每日检查
+- [[少妇战法1.3每日持股检查手册]] — 牛市持仓的每日检查
 - [[Zettaranc]] — 体系作者

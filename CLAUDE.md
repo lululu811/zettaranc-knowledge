@@ -59,9 +59,9 @@
 4. **来源归因规则(2026-04-26 更新)**:
    raw/ 中所有来源均为整理者，不区分一手二手，按知识来源可信度排序:
 
-   - **高可信度**:`raw/01-zettaranc/知行小菜鸟/`、`raw/01-zettaranc/大富翁小菜鸟/`（系统性整理，可信度高）
-   - **中可信度**:`raw/01-zettaranc/知行课代表/`、`raw/01-zettaranc/复盘专用z/`（课程/直播整理）
-   - **补充参考**:`raw/01-zettaranc/TANGOO/`（学生笔记，作为补充参考）
+   - **高可信度**:`raw/01-articles/知行小菜鸟/`、`raw/01-articles/大富翁小菜鸟/`（系统性整理，可信度高）
+   - **中可信度**:`raw/01-articles/知行课代表/`、`raw/01-articles/复盘专用z/`（课程/直播整理）
+   - **补充参考**:`raw/01-articles/TANGOO/`（学生笔记，作为补充参考）
 
    归因原则:
    - 所有来源均为 Zettaranc(Z 哥)交易体系的整理输出，不区分原创与整理
@@ -81,13 +81,58 @@
 - `/lint`:全局扫描 `wiki/` 目录,找出孤岛页面(没有双链)、死链(链接不存在的页面)以及存在逻辑冲突的地方,并向我报告。
 
 # 页面 Frontmatter (YAML) 规范
-所有生成的 wiki 页面必须包含以下 YAML 头部:
+所有生成的 wiki 页面**必须**包含以下完整 YAML 头部。缺少任一必填字段将导致 Dataview 查询失效。
+
 ```yaml
 ---
-title: "页面标题"
-type: concept | entity | source | synthesis
-tags: [知识标签]
-sources: [关联的raw文件相对路径]
-last_updated: YYYY-MM-DD
+title: "页面标题"                    # 必须:页面标题
+type: concept | entity | source | synthesis | map   # 必须:页面类型
+tags: [标签1, 标签2]                # 必须:至少一个标签
+sources: []                          # 可选:关联的来源文件路径列表
+raw_source: raw/01-articles/xxx.md # ingest 时必填:原始素材路径
+created: YYYY-MM-DD                  # 必须:创建日期
+last_updated: YYYY-MM-DD             # 必须:最后更新
+status: draft | published            # 必须:草稿/已发布
+ingested: true                       # ingest 页面必须为 true
+ingestion_version: 1                 # ingest 页面每次更新 +1
+# --- 以下为各类型可选字段 ---
+# concept:    complexity (low / medium / high)
+# entity:     entity_type (person / company / product / tool / organization / location / other)
+# source:     credibility (low / medium / high), source_type (article / paper / book / video / podcast / lecture / other)
+# synthesis:  confidence (low / medium / high), research_question
 ---
 ```
+
+> [!warning]+ 字段完整性检查清单
+> 创建或更新页面时,逐项确认:
+> - [ ] `title` 非空
+> - [ ] `type` 为五选一(concept / entity / source / synthesis / map)
+> - [ ] `tags` 至少一个
+> - [ ] `created` 和 `last_updated` 格式为 YYYY-MM-DD
+> - [ ] `status` 为 draft 或 published
+> - [ ] 若为 ingest 来源页:`raw_source`、`ingested: true`、`ingestion_version` 必填
+> - [ ] 各类型可选字段尽量补齐(complexity / entity_type / credibility / confidence)以激活 Dataview 仪表盘
+
+# MOC (Map of Contents) 维护
+MOC 是主题导航页,弥补 8 层目录的"穿透式分类"(同一概念可能跨多个层级)。
+
+- 路径:`wiki/mocs/MOC-<领域>.md`
+- 命名:中文领域名,Zettaranc 当前 4 个主题 MOC:
+  - [[MOC-战法策略]] — 03-买卖信号 + 04-战法策略
+  - [[MOC-工具体系]] — 02-底层工具
+  - [[MOC-资金筹码]] — 05-资金仓位 + 06-市场筹码
+  - [[MOC-心法哲学]] — 01-体系总览 + 07-心法哲学 + 08-操作手册
+  - [[MOC-待整理]] — 孤儿页面与缺字段页面的质量监控站
+- frontmatter:`type: map`
+- 内容:Dataview 自动聚合 + 静态目录 fallback
+- 维护:新建/更新概念页时,同步在合适的 MOC `## 静态目录` 块中追加链接
+
+# 命名规范
+
+| 类型 | 命名风格 | 示例 |
+|------|---------|------|
+| concept | TitleCase / 中文原名 | `[[B1建仓波]]`、`[[白线黄线系统]]`、`[[少妇战法]]` |
+| entity | TitleCase | `[[Zettaranc]]`、`[[国家队]]`、`[[麒麟会]]` |
+| source | kebab-case | `[[摘要-zhihang-精水流深-batch-01]]`、`[[batch-09-zhixing-extension]]` |
+| synthesis | 中文原名 / kebab-case | `[[短线交易操作手册]]`、`[[长线交易操作手册]]` |
+| MOC | TitleCase 中文 | `[[MOC-战法策略]]`、`[[MOC-工具体系]]` |

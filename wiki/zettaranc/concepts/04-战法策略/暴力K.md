@@ -2,8 +2,13 @@
 title: "暴力K"
 type: concept
 tags: [A股交易, Zettaranc, 战法]
-sources: [raw/01-zettaranc/大富翁小菜鸟/[202601030800]论坐镇中军与平地惊雷暴力K与关键K.md, raw/01-zettaranc/TANGOO/[202512250040]底部暴力K线.md, raw/01-zettaranc/知行小菜鸟/[202601270052]45底部暴力K在极度恐慌与莫名其妙中抓住改变命运的起爆点.md]
+sources: [raw/01-articles/大富翁小菜鸟/[202601030800]论坐镇中军与平地惊雷深度解析暴力K与关键K的逻辑分野与共生哲学.md, raw/01-articles/TANGOO/[202512250040]底部暴力K线.md, raw/01-articles/知行小菜鸟/[202601270052]45底部暴力K在极度恐慌与莫名其妙中抓住改变命运的起爆点.md]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

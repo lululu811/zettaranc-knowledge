@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Wiki Reading — 知识库阅读优化样式 v2
+   基于 Nord / Minimal 主题理念，专为长时间阅读设计
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. 根变量定义（Nord 配色 + 明暗模式）
+   -------------------------------------------------------------------------- */
+.theme-dark {
+  --wiki-accent: #5e81ac;
+  --wiki-accent-light: #81a1c1;
+  --wiki-bg-primary: #2e3440;
+  --wiki-bg-secondary: #3b4252;
+  --wiki-bg-tertiary: #434c5e;
+  --wiki-text-normal: #eceff4;
+  --wiki-text-muted: #d8dee9;
+  --wiki-text-faint: #4c566a;
+  --wiki-border: #4c566a;
+  --wiki-line-height: 1.8;
+}
+
+.theme-light {
+  --wiki-accent: #5e81ac;
+  --wiki-accent-light: #4c566a;
+  --wiki-bg-primary: #f8f9fb;
+  --wiki-bg-secondary: #f0f2f5;
+  --wiki-bg-tertiary: #e8ebef;
+  --wiki-text-normal: #2e3440;
+  --wiki-text-muted: #4c566a;
+  --wiki-text-faint: #9aa5b4;
+  --wiki-border: #d8dee9;
+  --wiki-line-height: 1.8;
+}
+
+/* --------------------------------------------------------------------------
+   2. 全局排版优化
+   -------------------------------------------------------------------------- */
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-preview-view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: var(--wiki-line-height);
+  color: var(--wiki-text-normal);
+  font-size: 15px;
+}
+
+/* 阅读宽度限制 */
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+.markdown-source-view.is-readable-line-width .cm-content {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --------------------------------------------------------------------------
+   3. 标题样式
+   -------------------------------------------------------------------------- */
+.markdown-preview-view h1 { font-size: 2em; color: var(--wiki-accent); border-bottom: 2px solid var(--wiki-border); }
+.markdown-preview-view h2 { font-size: 1.6em; color: var(--wiki-text-normal); border-bottom: 1px solid var(--wiki-border); }
+.markdown-preview-view h3 { font-size: 1.3em; color: var(--wiki-accent-light); }
+
+/* --------------------------------------------------------------------------
+   4. 段落与间距
+   -------------------------------------------------------------------------- */
+.markdown-preview-view p { margin-block-start: 0.9em; margin-block-end: 0.9em; }
+.markdown-preview-view ul, .markdown-preview-view ol { padding-left: 1.6em; }
+.markdown-preview-view li { margin-block-start: 0.3em; margin-block-end: 0.3em; }
+
+/* --------------------------------------------------------------------------
+   5. 引用块
+   -------------------------------------------------------------------------- */
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--wiki-accent);
+  background-color: var(--wiki-bg-secondary);
+  padding: 0.8em 1em;
+  margin: 1.2em 0;
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--wiki-text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   6. 表格
+   -------------------------------------------------------------------------- */
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.2em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--wiki-border);
+}
+
+.markdown-preview-view th {
+  background-color: var(--wiki-bg-tertiary);
+  color: var(--wiki-accent);
+  font-weight: 600;
+  padding: 0.6em 1em;
+  border-bottom: 2px solid var(--wiki-accent);
+  text-align: left;
+}
+
+.markdown-preview-view td { padding: 0.5em 1em; border-bottom: 1px solid var(--wiki-border); }
+.markdown-preview-view tr:last-child td { border-bottom: none; }
+.markdown-preview-view tr:hover td { background-color: var(--wiki-bg-secondary); }
+
+/* --------------------------------------------------------------------------
+   7. 代码块
+   -------------------------------------------------------------------------- */
+.markdown-preview-view pre {
+  background-color: var(--wiki-bg-secondary);
+  border-radius: 10px;
+  padding: 1em 1.2em;
+  margin: 1.2em 0;
+  overflow-x: auto;
+  border: 1px solid var(--wiki-border);
+}
+
+.markdown-preview-view code {
+  background-color: var(--wiki-bg-secondary);
+  color: #d08770;
+  padding: 0.15em 0.45em;
+  border-radius: 5px;
+  font-size: 0.88em;
+}
+
+/* --------------------------------------------------------------------------
+   8. Dataview 表格
+   -------------------------------------------------------------------------- */
+.markdown-preview-view table.dataview th {
+  background: linear-gradient(135deg, var(--wiki-bg-tertiary) 0%, var(--wiki-bg-secondary) 100%);
+  color: var(--wiki-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.markdown-preview-view table.dataview a {
+  color: var(--wiki-accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--wiki-accent);
+}
+
+/* --------------------------------------------------------------------------
+   9. 搜索高亮
+   -------------------------------------------------------------------------- */
+.markdown-preview-view mark,
+.markdown-source-view.mod-cm6 .cm-searchMatch {
+  background-color: rgba(235, 203, 139, 0.3);
+  border-radius: 2px;
+  padding: 0 2px;
+}

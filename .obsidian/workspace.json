@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bdf9eba5858f04a5",
+        "id": "b94b791ad88aabd1",
         "type": "tabs",
         "children": [
           {
-            "id": "c97045b270abb12c",
+            "id": "5bea0272a2f075c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/zettaranc/concepts/07-心法哲学/不可能三角.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "不可能三角"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 405.5
   },
   "right": {
     "id": "19ce588abf908eb7",
@@ -161,12 +161,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "82362ca35652444a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 608.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -177,31 +188,55 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian42-brat:BRAT": false,
+      "claudian:Open Claudian": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c97045b270abb12c",
+  "active": "5bea0272a2f075c4",
   "lastOpenFiles": [
-    "wiki/syntheses/长线交易操作手册.md",
-    "wiki/syntheses/短线交易操作手册.md",
+    "OBSIDIAN_SETUP.md.tmp.4500.1777947752066",
+    "README.md.tmp.4500.1777947683765",
+    "README.md.tmp.4500.1777947620802",
+    "README.md.tmp.4500.1777947620640",
+    "README.md.tmp.4500.1777947551617",
+    "README.md.tmp.4500.1777947530999",
+    "README.md.tmp.4500.1777947502658",
+    "README.md.tmp.4500.1777947327958",
+    "wiki/zettaranc/concepts/07-心法哲学/490别把送分题做成送命题.md",
+    "wiki/mocs/MOC-战法策略.md",
+    "wiki/mocs/MOC-资金筹码.md",
+    "wiki/mocs/README.md",
     "README.md",
-    "wiki/concepts/框架式交易.md",
-    "wiki/concepts/四块砖交易体系.md",
-    "wiki/index.md",
-    "wiki/concepts/娜娜图.md",
-    "wiki/concepts/B2突破.md",
-    "wiki/concepts/B1建仓波.md",
-    "wiki/concepts/B3买点.md",
-    "wiki/concepts/双枪战法.md",
-    "wiki/concepts/交易闭环.md",
-    "wiki/concepts/呼吸结构.md",
-    "wiki/concepts/量比战法.md",
-    "wiki/concepts/活跃市值.md",
-    "wiki/entities/Zettaranc.md",
-    "2026-04-15.md",
+    "CHANGELOG.md.tmp.4500.1777947039911",
+    "OBSIDIAN_SETUP.md",
     "CLAUDE.md",
-    "wiki/log.md",
-    "wiki/concepts/白线黄线系统.md",
-    "obsidian-config.md"
+    "CHANGELOG.md",
+    "wiki/zettaranc/entities/渣A小学生.md",
+    "wiki/zettaranc/entities/国家队.md",
+    "wiki/zettaranc/entities/大富翁小菜鸟号.md",
+    "wiki/zettaranc/entities/百岁山.md",
+    "wiki/zettaranc/concepts/08-操作手册/短线交易操作手册.md",
+    "wiki/zettaranc/concepts/08-操作手册/长线交易操作手册.md",
+    "wiki/log.md.tmp.4500.1777946829131",
+    "wiki/zettaranc/concepts/01-体系总览/Z家军每日五步工作流.md",
+    "wiki/zettaranc/concepts/01-体系总览/知行交易模块.md",
+    "wiki/log.md.tmp.4500.1777946796775",
+    "wiki/zettaranc/concepts/01-体系总览/七层应对.md",
+    "wiki/zettaranc/concepts/01-体系总览/框架式交易.md",
+    "wiki/zettaranc/concepts/01-体系总览/交易闭环.md",
+    "wiki/mocs/MOC-心法哲学.md",
+    "wiki/mocs/MOC-工具体系.md",
+    "wiki/mocs/MOC-待整理.md",
+    "2026-04-15.md",
+    "templates/synthesis.md",
+    "templates/concept.md",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "assets/wechat-qrcode.jpg",
+    "assets/39bbf7c679ea06a8b2455e71e986467a.jpg",
+    "assets/wechat-qr.jpg"
   ]
 }

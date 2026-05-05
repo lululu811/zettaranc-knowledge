@@ -2,8 +2,13 @@
 title: "MACD共振战法"
 type: concept
 tags: [MACD, 砖形图, 共振, 多周期, 胜率提升]
-sources: [raw/01-zettaranc/知行小菜鸟/[202604240812]472从顶底背离到黄线战法这是我用十年亏出来的交易真相.md]
+sources: [raw/01-articles/知行小菜鸟/[202604240812]472从顶底背离到黄线战法这是我用十年亏出来的交易真相.md]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

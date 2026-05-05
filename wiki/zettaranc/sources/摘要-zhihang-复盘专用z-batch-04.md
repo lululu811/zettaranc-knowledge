@@ -2,8 +2,14 @@
 title: "摘要-zhihang-复盘专用z-batch-04"
 type: source
 tags: [复盘专用z, 直播总结, Z哥]
-sources: [raw/01-zettaranc/复盘专用z/]
+sources: [raw/01-articles/复盘专用z/]
+created: 2026-04-18
 last_updated: 2026-04-18
+status: published
+credibility: medium
+source_type: article
+ingested: true
+ingestion_version: 1
 ---
 
 ## 核心摘要

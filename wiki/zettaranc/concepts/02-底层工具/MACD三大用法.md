@@ -3,10 +3,15 @@ title: "MACD三大用法"
 type: concept
 tags: [MACD, 技术指标, 工具方法, 趋势判断]
 sources: [
-  raw/01-zettaranc/TANGOO/[202604230020]指标之王MACD20260422.md,
-  raw/01-zettaranc/知行小菜鸟/[202604231829]471MACD被散户用废的指标之王.md
+  raw/01-articles/TANGOO/[202604230020]指标之王MACD20260422.md,
+  raw/01-articles/知行小菜鸟/[202604231829]471MACD被散户用废的指标之王.md
 ]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

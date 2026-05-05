@@ -1,0 +1,163 @@
+/* ==========================================================================
+   Wiki Components — 链接、图片、代码块等组件样式 v2
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. 内部链接（双链）
+   -------------------------------------------------------------------------- */
+.markdown-preview-view .internal-link,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link {
+  color: var(--wiki-accent, #5e81ac);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--wiki-accent, #5e81ac);
+  transition: all 0.18s ease;
+  font-weight: 500;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.markdown-preview-view .internal-link:hover,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link:hover {
+  color: var(--wiki-accent-light, #81a1c1);
+  border-bottom-style: solid;
+  background-color: rgba(94, 129, 172, 0.1);
+}
+
+.markdown-preview-view .internal-link.is-unresolved {
+  color: var(--wiki-text-muted, #d8dee9);
+  border-bottom: 1px dotted var(--wiki-text-muted, #d8dee9);
+  opacity: 0.75;
+  font-style: italic;
+}
+
+/* --------------------------------------------------------------------------
+   2. 外部链接
+   -------------------------------------------------------------------------- */
+.markdown-preview-view .external-link {
+  color: var(--wiki-accent-light, #81a1c1);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(129, 161, 193, 0.35);
+  transition: all 0.18s ease;
+  padding-right: 1.4em;
+  position: relative;
+}
+
+.markdown-preview-view .external-link::after {
+  content: "↗";
+  font-size: 0.72em;
+  margin-left: 0.2em;
+  opacity: 0.55;
+}
+
+/* --------------------------------------------------------------------------
+   3. 标签样式
+   -------------------------------------------------------------------------- */
+.markdown-preview-view a.tag,
+.markdown-source-view.mod-cm6 .cm-hashtag {
+  background-color: rgba(94, 129, 172, 0.12);
+  color: var(--wiki-accent, #81a1c1);
+  padding: 0.18em 0.55em;
+  border-radius: 5px;
+  font-size: 0.83em;
+  font-weight: 500;
+  transition: all 0.18s ease;
+  border-bottom: none;
+}
+
+.markdown-preview-view a.tag:hover,
+.markdown-source-view.mod-cm6 .cm-hashtag:hover {
+  background-color: rgba(94, 129, 172, 0.22);
+  color: var(--wiki-accent-light, #5e81ac);
+}
+
+/* --------------------------------------------------------------------------
+   4. 图片样式
+   -------------------------------------------------------------------------- */
+.markdown-preview-view img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.28);
+}
+
+/* --------------------------------------------------------------------------
+   5. 滚动条
+   -------------------------------------------------------------------------- */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--wiki-border, #4c566a); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--wiki-text-faint, #616e87); }
+
+/* --------------------------------------------------------------------------
+   6. 图谱视图
+   -------------------------------------------------------------------------- */
+.graph-view.color-fill { color: var(--wiki-accent, #5e81ac); }
+.graph-view.color-line { color: var(--wiki-border, #4c566a); }
+.graph-view.color-text { color: var(--wiki-text-normal, #eceff4); }
+.graph-view.color-fill-highlight { color: var(--wiki-accent-light, #81a1c1); }
+.graph-view.color-line-highlight { color: var(--wiki-accent, #5e81ac); }
+
+.graph-view .graph-view-label {
+  font-size: 11px;
+  color: var(--wiki-text-normal, #eceff4);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* --------------------------------------------------------------------------
+   7. 搜索结果
+   -------------------------------------------------------------------------- */
+.search-result-container { border-radius: 8px; overflow: hidden; }
+.search-result-file-title { font-weight: 600; color: var(--wiki-accent, #81a1c1); }
+.search-result-match { border-radius: 3px; transition: background-color 0.15s ease; }
+.search-result-match:hover { background-color: rgba(94, 129, 172, 0.1); }
+
+/* --------------------------------------------------------------------------
+   8. 侧边栏
+   -------------------------------------------------------------------------- */
+.nav-folder-title, .nav-file-title {
+  border-radius: 5px;
+  margin: 1px 4px;
+  padding: 3px 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-file-title.is-active {
+  background-color: rgba(94, 129, 172, 0.18);
+  color: var(--wiki-accent, #81a1c1);
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   9. 弹窗/预览
+   -------------------------------------------------------------------------- */
+.popover {
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--wiki-border, #4c566a);
+}
+
+.prompt {
+  border-radius: 12px;
+  border: 1px solid var(--wiki-border, #4c566a);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+}
+
+/* --------------------------------------------------------------------------
+   10. 状态栏
+   -------------------------------------------------------------------------- */
+.status-bar {
+  background-color: var(--wiki-bg-secondary, #3b4252);
+  border-top: 1px solid var(--wiki-border, #4c566a);
+  font-size: 0.8em;
+}
+
+.status-bar-item { padding: 0 0.6em; color: var(--wiki-text-muted, #d8dee9); }
+.status-bar-item:hover { background-color: var(--wiki-bg-tertiary, #434c5e); }

@@ -3,13 +3,18 @@ title: "对称VA战法"
 type: concept
 tags: [对称图形, 技术形态, 价格预测, 通用]
 sources: [
-  raw/01-zettaranc/复盘专用z/[202507261200]最后一节基础课知识点补充短线如何止损以及识别sb1案例25年7月20日充.md,
-  raw/01-zettaranc/复盘专用z/[202501111030]独门对称VA战法25年1022Z哥充电直播.md,
-  raw/01-zettaranc/复盘专用z/[202601111030]独门对称VA战法25年1022Z哥充电直播.md,
-  raw/01-zettaranc/复盘专用z/[202601251001]对称战法案例补充心法牛市散户三大魔咒25年1026Z哥充电直播.md,
-  raw/01-zettaranc/知行小菜鸟/[202511190036]进阶对称战法纯理论.md
+  raw/01-articles/复盘专用z/[202507261200]最后一节基础课知识点补充短线如何止损以及识别sb1案例25年7月20日充.md,
+  raw/01-articles/复盘专用z/[202601111030]独门对称VA战法25年1022Z哥充电直播.md,
+  raw/01-articles/复盘专用z/[202601111030]独门对称VA战法25年1022Z哥充电直播.md,
+  raw/01-articles/复盘专用z/[202601251001]对称战法案例补充心法牛市散户三大魔咒25年1026Z哥充电直播.md,
+  raw/01-articles/知行小菜鸟/[202511190036]进阶对称战法纯理论.md
 ]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

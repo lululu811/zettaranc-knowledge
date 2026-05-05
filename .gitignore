@@ -1,12 +1,36 @@
+# Raw materials (immutable, local only — 用户决定不入 git)
+raw/
+
 # Claude Code
 .claude/
 
 # OMC
 .omc/
 
-# Raw materials (immutable, local only)
-raw/
+# Claudian
+.claudian/
+
+# Obsidian — 排除本地视图状态,保留共享配置
+.obsidian/workspace*.json
+.obsidian/graph.json
+.obsidian/.DS_Store
+.obsidian/themes/
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
+
+# 保留共享配置(显式 unignore)
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+!.obsidian/snippets/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Temp
+*.tmp
+*.temp
+.dead_links_*.md
+_dirs.txt

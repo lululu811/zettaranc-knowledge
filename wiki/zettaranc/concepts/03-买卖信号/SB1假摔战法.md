@@ -2,8 +2,13 @@
 title: "SB1假摔战法"
 type: concept
 tags: [A股交易, Zettaranc, 战法]
-sources: [raw/01-zettaranc/知行小菜鸟/[202601302352]5.1 SB1假摔战法.md]
+sources: [raw/01-articles/知行小菜鸟/[202601302352]5.1 SB1假摔战法.md]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

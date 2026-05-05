@@ -2,8 +2,13 @@
 title: "十张死亡K线图"
 type: concept
 tags: [A股交易, Zettaranc, 止损, 死亡图形, 保命底线, 短线专用]
-sources: [raw/01-zettaranc/知行小菜鸟/[202603252057]312十张死亡K线图我在股市活了15年的保命底线.md]
+sources: [raw/01-articles/知行小菜鸟/[202603252057]312十张死亡K线图我在股市活了15年的保命底线.md]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

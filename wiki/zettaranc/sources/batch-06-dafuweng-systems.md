@@ -2,8 +2,14 @@
 title: "摘要-dafuweng-systems-batch-06"
 type: source
 tags: [A股交易, 大富翁小菜鸟, Z哥直播整理, 战法体系]
-sources: [raw/01-zettaranc/大富翁小菜鸟/]
+sources: [raw/01-articles/大富翁小菜鸟/]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+credibility: high
+source_type: article
+ingested: true
+ingestion_version: 1
 ---
 
 ## 核心摘要
@@ -95,6 +101,6 @@ last_updated: 2026-04-26
 
 - [[大富翁小菜鸟号]] — 整理团实体(后续 entities/ 创建)
 - [[Zettaranc]] — Z 哥本人,本批次内容的真实作者与归属
-- [[摘要-tangoo-notes-batch-05]] — 同体系的另一个二级整理来源(TANGOO),与本批次互补
+- [[batch-05-tangoo-notes]] — 同体系的另一个二级整理来源(TANGOO),与本批次互补
 - [[摘要-zhihang-精水流深-batch-01]]、[[摘要-zhihang-知行课代表-batch-02]]、[[摘要-zhihang-空谷幽兰-batch-03]]、[[摘要-zhihang-复盘专用z-batch-04]] — 同体系的一手原创和其他二级整理
 - [[B1建仓波]]、[[B2突破]]、[[少妇战法]]、[[N型结构]]、[[白线黄线系统]]、[[活跃市值]]、[[三最原则]] — 已有概念,本批次给出最完整教程级补强

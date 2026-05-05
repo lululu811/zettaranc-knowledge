@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Wiki Callouts — 知识库 Callout 样式增强 v2
+   ========================================================================== */
+
+.callout {
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+  margin: 1.2em 0;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--wiki-bg-secondary, #3b4252);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.callout-title {
+  font-weight: 600;
+  font-size: 0.92em;
+  gap: 0.5em;
+  padding: 0.7em 1em 0.6em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.callout-icon { display: flex; align-items: center; width: 18px; height: 18px; }
+.callout-content { font-size: 0.95em; line-height: 1.75; padding: 0.8em 1em 0.9em; }
+.callout-content > p:first-child { margin-top: 0; }
+.callout-content > p:last-child { margin-bottom: 0; }
+
+/* 左侧彩色边条 */
+.callout::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  border-radius: 10px 0 0 10px;
+}
+
+/* NOTE */
+.callout[data-callout="note"] { background: linear-gradient(135deg, rgba(94, 129, 172, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="note"]::before { background: #5e81ac; }
+.callout[data-callout="note"] .callout-title { color: #81a1c1; }
+
+/* ABSTRACT */
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] { background: linear-gradient(135deg, rgba(163, 190, 140, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="abstract"]::before,
+.callout[data-callout="summary"]::before,
+.callout[data-callout="tldr"]::before { background: #a3be8c; }
+.callout[data-callout="abstract"] .callout-title,
+.callout[data-callout="summary"] .callout-title,
+.callout[data-callout="tldr"] .callout-title { color: #a3be8c; }
+
+/* INFO */
+.callout[data-callout="info"] { background: linear-gradient(135deg, rgba(129, 161, 193, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="info"]::before { background: #81a1c1; }
+.callout[data-callout="info"] .callout-title { color: #81a1c1; }
+
+/* TIP */
+.callout[data-callout="tip"],
+.callout[data-callout="hint"],
+.callout[data-callout="important"] { background: linear-gradient(135deg, rgba(235, 203, 139, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="tip"]::before,
+.callout[data-callout="hint"]::before,
+.callout[data-callout="important"]::before { background: #ebcb8b; }
+.callout[data-callout="tip"] .callout-title,
+.callout[data-callout="hint"] .callout-title,
+.callout[data-callout="important"] .callout-title { color: #ebcb8b; }
+
+/* WARNING */
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] { background: linear-gradient(135deg, rgba(208, 135, 112, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="warning"]::before,
+.callout[data-callout="caution"]::before,
+.callout[data-callout="attention"]::before { background: #d08770; }
+.callout[data-callout="warning"] .callout-title,
+.callout[data-callout="caution"] .callout-title,
+.callout[data-callout="attention"] .callout-title { color: #d08770; }
+
+/* DANGER */
+.callout[data-callout="danger"],
+.callout[data-callout="error"],
+.callout[data-callout="bug"],
+.callout[data-callout="fail"] { background: linear-gradient(135deg, rgba(191, 97, 106, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="danger"]::before,
+.callout[data-callout="error"]::before,
+.callout[data-callout="bug"]::before,
+.callout[data-callout="fail"]::before { background: #bf616a; }
+.callout[data-callout="danger"] .callout-title,
+.callout[data-callout="error"] .callout-title,
+.callout[data-callout="bug"] .callout-title,
+.callout[data-callout="fail"] .callout-title { color: #bf616a; }
+
+/* QUOTE */
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] { background: linear-gradient(135deg, rgba(216, 222, 233, 0.05) 0%, var(--wiki-bg-secondary) 100%); font-style: italic; }
+.callout[data-callout="quote"]::before,
+.callout[data-callout="cite"]::before { background: #d8dee9; }
+.callout[data-callout="quote"] .callout-title,
+.callout[data-callout="cite"] .callout-title { color: #d8dee9; }
+
+/* QUESTION */
+.callout[data-callout="question"],
+.callout[data-callout="faq"],
+.callout[data-callout="help"] { background: linear-gradient(135deg, rgba(129, 161, 193, 0.08) 0%, var(--wiki-bg-secondary) 100%); }
+.callout[data-callout="question"]::before,
+.callout[data-callout="faq"]::before,
+.callout[data-callout="help"]::before { background: #81a1c1; }
+.callout[data-callout="question"] .callout-title,
+.callout[data-callout="faq"] .callout-title,
+.callout[data-callout="help"] .callout-title { color: #81a1c1; }

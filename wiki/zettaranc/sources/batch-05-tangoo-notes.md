@@ -2,8 +2,14 @@
 title: "摘要-tangoo-notes-batch-05"
 type: source
 tags: [A股交易, 渣A小学生, TANGOO, 二级笔记]
-sources: [raw/01-zettaranc/TANGOO/]
+sources: [raw/01-articles/TANGOO/]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+credibility: low
+source_type: article
+ingested: true
+ingestion_version: 1
 ---
 
 ## 核心摘要

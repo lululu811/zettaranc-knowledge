@@ -3,9 +3,14 @@ title: "N型结构"
 type: concept
 tags: [趋势, 基础理论, N型, 结构分析, 通用]
 sources:
-  - raw/01-zettaranc/知行小菜鸟/[202602201204]新春特辑从建仓到止盈全流程拆解新手也能直接落地的实战指南.md
-  - raw/01-zettaranc/知行课代表/[202510061457]基础篇一K线N型结构趋势均线.md
+  - raw/01-articles/知行小菜鸟/[202602201204]新春特辑从建仓到止盈全流程拆解新手也能直接落地的实战指南.md
+  - raw/01-articles/知行课代表/[202510061457]基础篇一K线N型结构趋势均线.md
+created: 2026-04-19
 last_updated: 2026-04-19
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义
@@ -71,4 +76,4 @@ flowchart LR
 - [[少妇战法]] — 等B1就是等N型结构中的回调低点
 - [[B1建仓波]] — B1信号出现在N型结构的回调末端
 - [[交易心理]] — 理解N型结构才能克服回调恐惧
-- [[止损]] — N型结构被破坏即触发止损
+- [[嘀嘀战法|止损]] — N型结构被破坏即触发止损

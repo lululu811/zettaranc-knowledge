@@ -2,8 +2,13 @@
 title: "渣A小学生"
 type: entity
 tags: [A股交易, Zettaranc, 作者, 公众号, 二级笔记]
-sources: [raw/01-zettaranc/TANGOO/]
+sources: [raw/01-articles/TANGOO/]
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+entity_type: person
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义
@@ -54,7 +59,7 @@ last_updated: 2026-04-26
 
 - [[Zettaranc]]
 - [[大富翁小菜鸟号]]
-- [[摘要-tangoo-notes-batch-05]]
+- [[batch-05-tangoo-notes]]
 - [[关键K]]
 - [[暴力K]]
 - [[嘀嘀战法]]

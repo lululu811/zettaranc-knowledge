@@ -3,8 +3,13 @@ title: "AI控盘指数论"
 type: concept
 tags: [AI控盘, 指数管控, 1:99分化, 世界观假设]
 sources:
-  - raw/01-zettaranc/知行小菜鸟/[202604051720]4.1.0磨底不死杀尽人性方见牛.md
+  - raw/01-articles/知行小菜鸟/[202604051720]410磨底不死杀尽人性方见牛.md
+created: 2026-04-26
 last_updated: 2026-04-26
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义

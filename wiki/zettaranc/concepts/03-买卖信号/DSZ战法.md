@@ -2,8 +2,13 @@
 title: "DSZ战法"
 type: concept
 tags: [超短线, 卖出规则, 战法]
-sources: [raw/01-zettaranc/知行小菜鸟/[202603192247]363短线的生死全在卖出这一刀.md]
+sources: [raw/01-articles/知行小菜鸟/[202603192247]363短线的生死全在卖出这一刀.md]
+created: 2026-04-18
 last_updated: 2026-04-18
+status: published
+complexity: medium
+ingested: true
+ingestion_version: 1
 ---
 
 ## 定义
