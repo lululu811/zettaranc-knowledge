@@ -39,7 +39,7 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 
 | 命名空间 | 概念 | 来源 | 实体 | Syntheses | 原始素材 | 说明 |
 |---------|------|------|------|-----------|---------|------|
-| **Zettaranc** | 63 个 | 7 个 | 6 个 | 2 篇 | 407 篇 | A股交易体系:短线/长线操作手册 |
+| **Zettaranc** | 88 个 | 8 个 | 6 个 | 2 篇 | 470 篇 | A股交易体系:短线/长线操作手册 |
 
 ### 来源构成(7 个 source 摘要)
 
@@ -52,6 +52,7 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 | 一手原创(延续) | [[batch-09-zhixing-extension]] | 58 篇 | 2025-11 → 2026-04 |
 | 二级整理(学生) | [[batch-05-tangoo-notes]] | 62 篇 | 2025-06 → 2026-04 |
 | 二级整理(舰长班) | [[batch-06-dafuweng-systems]] | 185 篇(战法核心 30 篇) | 2025-08 → 2026-04 |
+| 二级整理(舰长班) | [[batch-07-dafuweng-highvalue]] | 18 篇(高价值体系长文) | 2025-08 → 2026-03 |
 
 ## Zettaranc 体系概览
 
@@ -73,7 +74,7 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 
 ```
 ├── raw/                          # 原始素材层(只读,不可修改)
-│   └── 01-zettaranc/             # 5 个子目录,共 407 篇原始文章
+│   └── 01-zettaranc/             # 5 个子目录,共 470 篇原始文章
 │       ├── 知行小菜鸟/           # Z 哥本人(精水流深/空谷幽兰/延续)
 │       ├── 知行课代表/           # Z 哥课代表笔记
 │       ├── 复盘专用z/            # Z 哥直播复盘
@@ -82,9 +83,9 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 │
 ├── wiki/                         # 结构化知识库(编译输出层)
 │   ├── zettaranc/                # Zettaranc命名空间
-│   │   ├── concepts/             # 63 个概念
+│   │   ├── concepts/             # 88 个概念
 │   │   ├── entities/             # 6 个实体(作者+资金画像)
-│   │   ├── sources/              # 7 个来源摘要
+│   │   ├── sources/              # 8 个来源摘要
 │   │   ├── syntheses/            # 短线/长线操作手册
 │   │   ├── index.md
 │   │   └── log.md
@@ -151,6 +152,7 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 
 | 版本 | 日期 | 内容 |
 |------|------|------|
+| v0.7.0 | 2026-06-03 | 全面质量审查+大富翁高价值文件 batch-07,新增 2 概念,扩充 8 页面,清理重复文件 |
 | v0.5.0 | 2026-04-26 | 全量摄入 TANGOO/大富翁/知行延续 305 篇,新增 21 概念 + 5 实体 + 3 source |
 | v0.4.0 | 2026-04-26 | 数据丢失,移除 BOSS墨/三线文案/基本面命名空间,仅保留 Zettaranc |
 | v0.3.0 | 2026-04-19 | Wiki全面美化:Callout + Mermaid + 受益标的表格 |

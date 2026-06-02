@@ -1,0 +1,15 @@
+{
+  "name": "zettaranc-knowledge",
+  "owner": {
+    "name": "chenlei",
+    "url": "https://github.com/chenleiitaz"
+  },
+  "plugins": [
+    {
+      "name": "zettaranc",
+      "source": "./",
+      "description": "Zettaranc A股交易体系知识库 Skill",
+      "version": "1.0.0"
+    }
+  ]
+}

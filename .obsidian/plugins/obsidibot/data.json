@@ -1,0 +1,29 @@
+{
+  "binaryPath": "C:\\Users\\陈磊\\AppData\\Roaming\\npm\\claude",
+  "contextFilePath": "_claude-context.md",
+  "sendOnEnter": true,
+  "resumeLastSession": true,
+  "autonomousMemory": true,
+  "vaultTreeDepth": 3,
+  "skipContextFilePrompt": false,
+  "uiBridgeEnabled": true,
+  "commandAllowlist": [
+    "switcher:open",
+    "daily-notes",
+    "editor:open-search"
+  ],
+  "confirmUnlistedCommands": true,
+  "commandDenylist": [],
+  "permissionMode": "standard",
+  "logEnabled": true,
+  "logFilePath": ".obsidian/plugins/obsidibot/obsidibot-debug.log",
+  "logVerbosity": "normal",
+  "atMentionExtensions": "md, canvas, pdf, fountain, txt",
+  "injectSplitPaneFiles": true,
+  "injectStackedTabFiles": false,
+  "exportFolder": "ObsidiBot Exports",
+  "lastActiveSessionId": "",
+  "sessionStoragePath": "",
+  "commandsFolder": "",
+  "registerSkillsAsCommands": false
+}

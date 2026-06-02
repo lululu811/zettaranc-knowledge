@@ -1,0 +1,19 @@
+{
+  "name": "zettaranc",
+  "version": "1.0.0",
+  "description": "Zettaranc（知行小菜鸟）A股交易体系知识库 — 包含完整的买卖信号、战法策略、工具体系和心法哲学，可用于查询交易规则、分析股票信号、摄入新素材。",
+  "author": {
+    "name": "chenlei",
+    "url": "https://github.com/chenleiitaz"
+  },
+  "repository": "https://github.com/chenleiitaz/zettaranc-knowledge",
+  "license": "MIT",
+  "keywords": [
+    "trading",
+    "a-stock",
+    "zettaranc",
+    "knowledge-base",
+    "technical-analysis",
+    "obsidian"
+  ]
+}

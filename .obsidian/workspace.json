@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/zettaranc/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "log"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 405.5
   },
   "right": {
     "id": "19ce588abf908eb7",
@@ -161,13 +161,33 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "81b3c3b2206b1704",
+            "type": "leaf",
+            "state": {
+              "type": "obsidibot-chat",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "obsidibot-chat"
+            }
+          },
+          {
+            "id": "82362ca35652444a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 953.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,31 +197,55 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidibot:Open ObsidiBot agent": false,
+      "claudian:Open Claudian": false
     }
   },
   "active": "c97045b270abb12c",
   "lastOpenFiles": [
-    "wiki/syntheses/长线交易操作手册.md",
-    "wiki/syntheses/短线交易操作手册.md",
-    "README.md",
-    "wiki/concepts/框架式交易.md",
-    "wiki/concepts/四块砖交易体系.md",
-    "wiki/index.md",
-    "wiki/concepts/娜娜图.md",
-    "wiki/concepts/B2突破.md",
-    "wiki/concepts/B1建仓波.md",
-    "wiki/concepts/B3买点.md",
-    "wiki/concepts/双枪战法.md",
-    "wiki/concepts/交易闭环.md",
-    "wiki/concepts/呼吸结构.md",
-    "wiki/concepts/量比战法.md",
-    "wiki/concepts/活跃市值.md",
-    "wiki/entities/Zettaranc.md",
-    "2026-04-15.md",
+    "plugin/skills/zettaranc/references/03-工具体系.md",
+    "plugin/skills/zettaranc/references/04-心法哲学.md",
+    "plugin/skills/zettaranc/references/02-战法策略.md",
+    "plugin/skills/zettaranc/references/01-信号系统.md",
+    "plugin/LICENSE",
+    "plugin/README.md",
+    "plugin/skills/zettaranc/references/05-ingest-workflow.md",
+    "plugin/skills/zettaranc/SKILL.md",
+    "wiki/zettaranc/concepts/05-资金仓位/不同资金规模交易节奏.md",
+    "plugin/skills/zettaranc/references",
+    "plugin/skills/zettaranc",
+    "plugin/skills",
+    "plugin",
+    "wiki/zettaranc/concepts/07-心法哲学/分歧与一致.md",
+    "wiki/zettaranc/sources/batch-07-dafuweng-highvalue.md",
+    "AGENTS.md",
+    "wiki/zettaranc/log.md",
+    "未命名.md",
+    "wiki/zettaranc/index.md",
+    "templates/synthesis.md",
+    "templates/concept.md",
+    "wiki/zettaranc/concepts/01-体系总览/交易闭环.md",
+    "wiki/zettaranc/concepts/04-战法策略/少妇战法.md",
+    "wiki/zettaranc/concepts/08-操作手册/短线交易操作手册.md",
+    "wiki/zettaranc/concepts/08-操作手册/长线交易操作手册.md",
+    "wiki/zettaranc/concepts/01-体系总览/Z家军每日五步工作流.md",
     "CLAUDE.md",
-    "wiki/log.md",
-    "wiki/concepts/白线黄线系统.md",
-    "obsidian-config.md"
+    "obsidian-config.md",
+    "wiki/zettaranc/concepts/03-买卖信号/超级B1.md",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "wiki/zettaranc/concepts/01-体系总览/知行交易模块.md",
+    "wiki/zettaranc/concepts/01-体系总览/框架式交易.md",
+    "wiki/zettaranc/concepts/05-资金仓位/开超市策略.md.tmp.23820.1777188337491",
+    "wiki/zettaranc/concepts/05-资金仓位/开超市策略.md.tmp.23820.1777188318152",
+    "wiki/zettaranc/concepts/05-资金仓位/五分制持仓评分系统.md.tmp.23820.1777188298998",
+    "wiki/zettaranc/concepts/05-资金仓位/半仓放飞策略.md.tmp.23820.1777188279611",
+    "wiki/zettaranc/concepts/05-资金仓位/底仓与动态仓.md.tmp.23820.1777188260288",
+    "assets/wechat-qrcode.jpg",
+    "assets/39bbf7c679ea06a8b2455e71e986467a.jpg",
+    "assets/wechat-qr.jpg"
   ]
 }

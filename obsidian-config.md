@@ -1,7 +1,7 @@
 # Obsidian 设置指引
 
 ## 1. 打开知识库
-在 Obsidian 中点击 "Open folder as vault" → 选择 `D:\LLM-Wiki-Vault\`
+在 Obsidian 中点击 "Open folder as vault" → 选择本项目根目录（即 `zettaranc-knowledge/` 所在路径）
 
 ## 2. 附件路径设置
 Obsidian 设置 → 文件与链接：
@@ -15,7 +15,7 @@ Obsidian 设置 → 文件与链接：
 
 ## 4. 安装 Obsidian Web Clipper
 - 浏览器扩展：https://obsidian.md/clipper
-- 设置剪藏笔记保存路径为 `D:\LLM-Wiki-Vault\raw`（或 raw 下的子目录）
+- 设置剪藏笔记保存路径为 `raw/`（或 raw 下的子目录）
 - 支持 Chrome、Edge、Firefox 等浏览器
 
 ## 5. 推荐插件
